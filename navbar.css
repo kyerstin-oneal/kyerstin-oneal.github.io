@@ -29,7 +29,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #6649b8;
+    background: #00e0d4;
 }
 
 main {
@@ -78,6 +78,7 @@ nav-item:last-child {
 .nav-link:hover {
     filter: grayscale(0%) opacity(1);
     background: var(--bg-secondary);
+}
 
 .link-text {
     display: none;
@@ -125,4 +126,8 @@ nav-item:last-child {
 .logo svg {
     transform: rotate(0deg);
     transition: transform var(--transition-speed);
+}
+
+.navbar:hover .logo svg {
+    transform: rotate(-180deg);
 }
