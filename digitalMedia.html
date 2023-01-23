@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="style.css">
 
     <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    </style>
+    
 <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
 
 
@@ -17,56 +22,61 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-        <div class="container">
-            <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
-            
-           
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-            <div class="collapse navbar-collapse" id="navbarToggler"></div>
-
-
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+      <div class="container">
+          <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
           
-            <ul class="navbar-nav ms-auto mb-2">
-              <li class="nav-item">
-                <a class="nav-link font-black" href="/index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link font-black" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link font-black" href="#projects">Projects</a>
-                <li class="nav-item">
-                  <a class="nav-link font-black" href="/blockchain.html">Blockchain</a>
-                </li>
-              </li>
-            </ul>
+         
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+        <span class="navbar-toggler-icon"></span>
+        </button>
 
-          </div>
-        </div>
-    </nav>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+
+
+        <ul class="navbar-nav ms-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link font-black" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-black" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-black" href="/blockchain.html">Blockchain</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-black" href="/digitalMedia.html">Digital Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-black" href="/qualityAssurance.html">Quality Assurance</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </nav>
 
 
       <div id="about">
-          <h2><span class="font-primary">A</span>bout</h2>
+          <!-- <h2><span class="font-primary">A</span>bout</h2> -->
           <img src="img/kyerstin-image.png" alt="image of Kyerstin O'Neal">
           <div class="name">Kyērstin O'Neal</div>
           <div class="vocation">Digital Media Architect</div>
+          <div class="skills"><strong>Design</strong>
+            <br>
+            Adobe XD ● Figma</div>
           <div class="skills"><strong>Multimedia Design</strong>
             <br>
-            Photoshop / Illustrator / Procreate</div>
+            Photoshop ● Illustrator ● Procreate</div>
           <div class="skills"><strong>Video Editing + Effects</strong>
             <br>
-            Premiere Pro / After Effects</div>
-          <div class="skills"><strong>3D Modeling</strong>
+            Premiere Pro ● After Effects</div>
+          <!-- <div class="skills"><strong>3D Modeling</strong>
             <br>
-            Maya / Cinema 4D / Blender / Nomad</div>
+            Maya ● Cinema 4D ● Blender ● Nomad</div> -->
           <div class="skills"><strong>Photogrammetry</strong>
             <br>
-            Autodesk ReCap / Fusion360 </div>
+            Autodesk ReCap ● Fusion360 </div>
 
         <!-- SKILLS ICONS -->
           <!-- <div class="parent">
@@ -76,10 +86,10 @@
           </div> -->
 
 
-          <div><p class="introduction">
+          <!-- <div><p class="introduction">
             Here are a few sentences highlighting my strengths and experience as a digital media architect.
         </p></div>
-        </div>
+        </div> -->
         
       
       <div class="icons">
@@ -90,9 +100,84 @@
       </div>
 
       <div id="projects">
-          <h2><span class="font-primary">P</span>rojects</h2>
+          <h2><span class="font-primary">C</span>lients</h2>
+          <br>
 
-          <div class="card mb-3">
+
+          <!-- MODULUS ARCHITECTS -->
+        <div>
+          <h5 class="card-title">Modulus Architects</h5>
+            <p>Design & edit architectural renderings: the Whole Foods Marketplace a.k.a Carlisle Crossing & Tamaya Marketplace commercial development projects; augment Tamaya Marketplace as an AR effect to delight stakeholders for award-winning commercial architectural firm Modulus Architects</p>
+            <p><small><strong>Skills displayed:</strong> Adobe Photoshop, SparkAR</small></p>
+              <a href="https://www.modulusarchitects.com/portfoliopro/carlisle-crossing-albuquerque-nm/" target="_blank" class="btn btn-secondary">View Client Portfolio</a>
+          <br>
+          <br>
+          <img src="./img/digital-media/WholeFoods1.png" class="img-fluid" alt="...">
+          <br>
+          <p><small>Whole Foods Marketplace</small></p>
+          <br>
+          <img src="./img/digital-media/WholeFoods2.png" class="img-fluid" alt="...">
+          <br>
+          <p><small>Whole Foods Marketplace</small></p>
+          <br>
+          <img src="./img/digital-media/TamayaMarketplace.png" class="img-fluid" alt="...">
+          <br>
+          <p><small>Tamaya Marketplace</small></p>
+          <br>
+          <video class="project-video" autoplay muted controls>
+            <source src="video/TamayaMarketplaceAR.mp4" type="video/mp4"/>
+          </video>
+          <br>
+          <p><small>Tamaya Marketplace using Augmented Reality</small></p>
+          <br>
+          <br>
+          <br>
+        </div>
+
+
+
+          <!-- NEW MEXICO UNITED -->
+        <div>
+          <h5 class="card-title">New Mexico United</h5>
+            <p>design, develop, test & publish Augmented Reality (AR) effects to engage fan base via Facebook & Instagram</p>
+            <p><small><strong>Skills displayed:</strong> Adobe After Effects, SparkAR</small></p>
+          <video class="project-video" autoplay muted controls>
+            <source src="video/UnitedFaceLogo.mp4" type="video/mp4"/>
+          </video>
+          <br>
+          <br>
+          <video class="project-video" autoplay muted controls>
+            <source src="video/UnitedHair.mp4" type="video/mp4"/>
+          </video>
+          <br>
+          <br>
+          <video class="project-video" autoplay muted controls>
+            <source src="video/UnitedMeowWolfDots.mp4" type="video/mp4"/>
+          </video>
+          <br>
+          <br>
+          <br>
+        </div>
+
+
+
+
+
+          <!-- Tin Can Alley -->
+          <h5 class="card-title">Tin Can Alley</h5>
+            <p>augment a commissioned Frida Kahlo painting by local artist (Jodie Herrera) to drive foot traffic, brand awareness</p>
+            <p><small><strong>Skills displayed:</strong> Adobe After Effects, SparkAR</small></p>
+          <video class="project-video" autoplay muted controls>
+            <source src="video/TinCanAlleyFridaPan.mp4" type="video/mp4"/>
+          </video>
+          <br>
+          <br>
+          <br>
+
+
+
+
+          <!-- <div class="card mb-3">
             <div class="row">
               <div class="col-md-4">
                 <video class="project-video" autoplay muted controls>
@@ -103,21 +188,13 @@
                 <div class="card-body">
                   <h5 class="card-title">Architectural Renderings</h5>
                   <p class="card-text">Here is a series of architectural renderings I edited for award-winning commercial architectural firm Modulus Architects</p>
-                  <!-- <p class="card-text"><small class="text-muted">
-                      Test Login Account <br>
-                      Email: test@gmail.com <br>
-                      Pasword: 1234
-                  </small></p> -->
                     <a href="https://www.modulusarchitects.com/portfolio/" target="_blank" class="btn btn-secondary">View Client Portfolio</a>
-                    <!-- LINK TO WHOLE FOODS PAGE ON CLIENT PORTFOLIO: https://www.modulusarchitects.com/portfoliopro/carlisle-crossing-albuquerque-nm/ -->
-                    <!-- <a href="https://github.com/adykor/twitter-clone.git" target="_blank" class="btn btn-secondary">Github Link</a> -->
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <br>
-          <br>
+
 
           <!-- <div class="card mb-3">
             <div class="row">
@@ -172,39 +249,26 @@
 
           <!-- LINKS TO OTHER SKILLSETS -->
 
-<div id="additional-skills">
+<!-- <div id="additional-skills">
     <h2><span class="font-primary">A</span>dditional <span class="font-primary">S</span>kills</h2>
           <div class="card mb-3">
             <div class="row">
               <div class="col-md-4">
                 <img src="img/blockchain/Bitcoin.png" alt="">
-                <!-- <video class="project-video" autoplay muted controls>
-                  <source src="video/project_twitter.mp4" type="video/mp4" />
-                </video> -->
               </div>
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">Fullstack Blockchain Developer</h5>
                   <p class="card-text">In addition to being a Digital Media Architect, I also have experience in developing games and dApps using Web3 and Solidity smart contracts and deploying them to the Blockchain.</p>
-                  <!-- <p class="card-text"><small class="text-muted">
-                      Test Login Account <br>
-                      Email: test@gmail.com <br>
-                      Pasword: 1234
-                  </small></p> -->
                     <a href="./blockchain.html" target="_blank" class="btn btn-secondary">View Projects</a>
-                    <!-- <a href="https://github.com/adykor/twitter-clone.git" target="_blank" class="btn btn-secondary">Github Link</a> -->
                 </div>
               </div>
             </div>
           </div>
+</div> -->
 
-          
 
 
-          
-          
-
-      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
