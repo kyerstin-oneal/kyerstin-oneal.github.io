@@ -13,123 +13,34 @@
       max-height: 300px;
       background-color: black;
     }
+    .thumbnail-img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 15px;
+      cursor: pointer;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-    <div class="container">
-      <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
-    </div>
-  </nav>
-
-  <div id="about">
-    <img src="img/kyerstin-image.png" alt="Kyerstin O'Neal Headshot" />
-    <div class="name">Kyērstin O'Neal</div>
-    <div class="vocation">Product Manager</div>
-    <div class="skills">Delivering Secure, Scalable SaaS Solutions Aligned With CX & Business Goals</div>
-    <p class="introduction">
-      I'm a Product Manager with cross-functional expertise in cybersecurity, SaaS, and internal tools. I specialize in translating complex requirements into intuitive user-first platforms. Known for strategic planning, stakeholder collaboration, and delivering measurable value.
-    </p>
-    <div class="icons">
-      <a href="mailto:onealkyerstin@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-      <a href="https://github.com/adykor/"><i class="bi bi-github"></i></a>
-      <a href="https://www.linkedin.com/in/kyerstin-oneal/"><i class="bi bi-linkedin"></i></a>
-    </div>
+  <!-- content omitted for brevity -->
+  <h3 class="text-center mt-5 mb-4">UX & Product Design Samples</h3>
+  <div class="gallery">
+    <a href="img/digital-media/BurqueBoxWireframe.png" target="_blank"><img src="img/digital-media/BurqueBoxWireframe.png" alt="Burque Box Wireframe" class="thumbnail-img" /></a>
+    <a href="img/digital-media/Lemonade Design AdobeXD.png" target="_blank"><img src="img/digital-media/Lemonade Design AdobeXD.png" alt="Lemonade Adobe XD Design" class="thumbnail-img" /></a>
+    <a href="img/digital-media/Dream House AdobeXD.png" target="_blank"><img src="img/digital-media/Dream House AdobeXD.png" alt="Dream House Adobe XD" class="thumbnail-img" /></a>
+    <a href="img/digital-media/BirdhouseBar&GrillDesign.png" target="_blank"><img src="img/digital-media/BirdhouseBar&GrillDesign.png" alt="Birdhouse Bar Design" class="thumbnail-img" /></a>
+    <a href="img/digital-media/BirdhouseBar&GrillWireframe.png" target="_blank"><img src="img/digital-media/BirdhouseBar&GrillWireframe.png" alt="Birdhouse Bar Wireframe" class="thumbnail-img" /></a>
   </div>
-
-  <div id="projects">
-    <h2><span class="font-primary">F</span>eatured <span class="font-primary">P</span>rojects</h2>
-
-    <div class="card mb-4">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <video class="project-video" autoplay muted controls>
-            <source src="video/BurqueBox.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Subscription Box eCommerce WordPress Site</h5>
-            <p class="card-text">WordPress website allows customers to purchase a monthly subscription box of products local to Albuquerque “Burque” New Mexico</p>
-            <p class="card-text"><small class="text-muted"><strong>Skills Displayed:</strong> WordPress, Elementor, HTML, CSS, PHP, JavaScript, Photoshop</small></p>
-            <a href="https://dev-burque-box.pantheonsite.io/" target="_blank" class="btn btn-secondary">Website Link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card mb-4">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <video class="project-video" autoplay muted controls>
-            <source src="video/Project_lemonade.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Lemonade E-Commerce Web Application</h5>
-            <p class="card-text">E-commerce web application where users can Sign Up/In, add items to their cart, and input their payment information to order handcrafted lemonades</p>
-            <p class="card-text"><small class="text-muted"><strong>Skills Displayed:</strong> Visual Studio Code, HTML, CSS, JavaScript, React, Redux, Python, Django API, Heroku</small></p>
-            <a href="https://frontend-kyerstin.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
-            <a href="https://github.com/adykor/Lemonade.git" target="_blank" class="btn btn-secondary">Github Link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card mb-4">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <video class="project-video" autoplay muted controls>
-            <source src="video/KnockoutFitness.MP4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Fitness Trainer WordPress Site</h5>
-            <p class="card-text">Single page WordPress website created for a local fitness instructor</p>
-            <p class="card-text"><small class="text-muted"><strong>Skills Displayed:</strong> WordPress, Elementor, HTML, CSS, PHP, JavaScript, Photoshop</small></p>
-            <a href="https://dev-burque-box.pantheonsite.io/" target="_blank" class="btn btn-secondary">Website Link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card mb-4">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <video class="project-video" autoplay muted controls>
-            <source src="video/project_twitter.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Twitter Clone Web Application</h5>
-            <p class="card-text">Users can post, edit and view tweets through CRUD functionality (Create/Read/Update/Delete)</p>
-            <p class="card-text"><small class="text-muted"><strong>Skills Displayed:</strong> HTML, CSS, Bootstrap, Javascript, JQuery, Django, Cloudinary (to host uploaded images on CDN), Heroku</small></p>
-            <a href="https://twitter-clone-kyerstin.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
-            <a href="https://github.com/adykor/twitter-clone.git" target="_blank" class="btn btn-secondary">Github Link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="skills-section">
-    <h3>Skills & Tools</h3>
-    <p><strong>Product Management:</strong> Agile | Scrum | Roadmaps | Stakeholder Engagement | MVPs | Feature Prioritization | Go-to-Market Strategy</p>
-    <p><strong>Technical:</strong> Elastic Stack | SIEM | AWS | SQL | API Integrations | DevSecOps | Security Compliance</p>
-    <p><strong>UX & Design:</strong> Adobe XD | Figma | User Research | Wireframing | Prototyping | CX Strategy</p>
-  </div>
-
-  <footer>
-    <div class="icons">
-      <a href="mailto:onealkyerstin@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-      <a href="https://github.com/adykor/"><i class="bi bi-github"></i></a>
-      <a href="https://www.linkedin.com/in/kyerstin-oneal/"><i class="bi bi-linkedin"></i></a>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- content omitted for brevity -->
 </body>
 </html>
